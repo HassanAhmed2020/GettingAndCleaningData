@@ -1,4 +1,5 @@
 
+
 getwd()
 library(tidyverse)
 library(dplyr)
@@ -205,3 +206,5 @@ AverageVariables <- Combine_df %>%
         summarise_at(combine_df_colnames, mean, na.rm = TRUE)
 
 write_csv(AverageVariables, "./AverageVariables.csv")
+
+write.table(AverageVariables, "./AverageVariables.txt", row.name=FALSE)
