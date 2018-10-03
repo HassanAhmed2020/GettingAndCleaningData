@@ -1,8 +1,8 @@
 
-#Code Book
+# Code Book
 
 
-###Create one data set
+### Create one data set
 
 1) Dowload zip files from the source using download.file function
 
@@ -23,23 +23,22 @@
 9) Combine all columns into a sigle dataset
 
 
-###Extracts mean and standard deviation
+### Extracts mean and standard deviation
 10) Get all column names in a vector
 
 11) look for colnames conatining mean or std in their names and select those columns
 
 
-###Name the activities in the data set
+### Name the activities in the data set
 12) Load Activity Labels file
 
 13) Factor Activity column and rename labels according to labels file
 
-###Labels the data set with descriptive variable names.
+### Labels the data set with descriptive variable names.
 14) Made folloiwng column name changes to labels the data set with descriptive variable names.
 
-===================================================
 
-####Change following Column Names:
+#### Change following Column Names:
 
 Acc: accelerometer
 
@@ -87,10 +86,9 @@ bandsEnergy(): energy_of_a_frequency_band
 
 angle(): angle_between_two_vectors
 
-===================================================
 
 
-###Create a second, independent tidy data set of means
+### Create a second, independent tidy data set of means
 
 15) Get colname excluding Activity and Subject
 
@@ -100,7 +98,7 @@ angle(): angle_between_two_vectors
 
 
 
-###Feature Selection
+### Feature Selection
 
 
 The features selected for this database come from the accelerometer and gyroscope 3-axial raw signals tAcc-XYZ and tGyro-XYZ. These time domain signals (prefix 't' to denote time) were captured at a constant rate of 50 Hz. Then they were filtered using a median filter and a 3rd order low pass Butterworth filter with a corner frequency of 20 Hz to remove noise. Similarly, the acceleration signal was then separated into body and gravity acceleration signals (tBodyAcc-XYZ and tGravityAcc-XYZ) using another low pass Butterworth filter with a corner frequency of 0.3 Hz. 
